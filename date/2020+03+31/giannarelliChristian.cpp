@@ -320,7 +320,7 @@ void print(short int array[], unsigned short int size, bool fromMainArray) {
 		cout << i+1 << ") " << array[i] << endl;
 	}
 
-	if(fromMainArray == true) {
+	if(fromMainArray) {
 		menu(array, size);
 	}
 }
